@@ -74,11 +74,7 @@ KPIs principales en tarjetas:
 - Comisión Total
 - Crecimiento YoY %
 
-Visuales:
-- **Gráfico de líneas** — "Ingresos Durante el Periodo 23-24" (tendencia temporal por año/mes).
-- **Gráfico de columnas** — "Ingresos por Ciudad".
-- **Gráfico de líneas** — "Comparación Ingresos Periodo 23-24" (Ventas Año 24 vs. Ventas Año Anterior).
-- **Slicer** de Año para filtrar toda la página.
+![main view](/power-bi/img/main_view.png)
 
 ### 2️⃣ Análisis Comercial
 - **Gráfico de columnas** — "Ingresos por Tipo de Propiedad" (con tooltip de % de participación).
@@ -86,11 +82,15 @@ Visuales:
 - **Gráfico de columnas** — "Ingresos por Segmento de Clientes" (con tooltip de % de participación).
 - **Tabla** con formato condicional (semáforo): tipo de propiedad, Ingreso Total, Cantidad Venta y Ticket Promedio.
 
+![Analisis Comercial](/power-bi/img/detailed_view.png)
+
 ### 3️⃣ Análisis de Cohorte
 - **Matriz/pivot table** — "Retención % de Clientes":
   - Filas → `Cohorte` (mes de primera compra)
   - Columnas → `Mes Venta`
   - Valores → `Retencion %`
+
+![Analisis de Cohorte](/power-bi/img/analisis_cohorte.png)
 
 ### 4️⃣ Cantidad Ventas
 - **Gráfico de líneas** — evolución de la cantidad de ventas (conteo de `id_venta`) por año y mes.
